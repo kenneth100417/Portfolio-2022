@@ -518,6 +518,7 @@ textarea:focus {
     background-size: cover;
     width: 250px;
     height: 400px;
+    background-color: #888787;
   }
 
   .swiper-slide img {
@@ -585,7 +586,7 @@ button.app-icon:hover{
 
 @media screen and (max-width: 640px){
 
-    /* .mobile-view-message{
+    .mobile-view-message{
         display: unset;
         text-align: center;
     }
@@ -595,7 +596,10 @@ button.app-icon:hover{
     }
     section,footer{
         display: none;
-    } */
+    }
+/* body{
+    text-align: center;
+}
 
 div.navbar-toggler{
     margin-right: -20px;
@@ -839,6 +843,6 @@ textarea{
 
 .footer-text-1,.footer-text-2{
     font-size: 14px;
-}
+} */
 
 }
