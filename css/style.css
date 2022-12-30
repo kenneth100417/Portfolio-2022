@@ -4,8 +4,8 @@ body{
     margin: 0;
     padding: 0;
     background-color: #170857;
-    /* #120c6e #0b0742*/
 }
+
 /* Navigation Bar */
 header{
     background-color: #0e0536;
@@ -180,7 +180,7 @@ a.btn-custom{
 
 /* ABOUT */
 fieldset{
-    border: solid 1px #ffffff;
+    border: solid 1px #fff;
     margin-left: -100px;
     margin-right: -100px;
     margin-bottom: -50px;
@@ -582,8 +582,8 @@ button.app-icon:hover{
 .mobile-view-message{
     display: none;
 }
-/* Media Queries */
 
+/* Media Queries */
 @media screen and (max-width: 370px){
 
     /* .mobile-view-message{
@@ -817,8 +817,6 @@ form{
     margin-left: 10px;
     margin-top: -5px;
 }
-
-
 
 input,
 textarea,
