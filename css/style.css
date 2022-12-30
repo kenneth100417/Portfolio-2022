@@ -584,7 +584,7 @@ button.app-icon:hover{
 }
 
 /* Media Queries */
-@media screen and (max-width: 370px){
+@media screen and (max-width: 990px){
 
     /* .mobile-view-message{
         display: unset;
@@ -598,9 +598,7 @@ button.app-icon:hover{
         display: none;
     } */
 
-    .img-container{
-        display: none;
-    }
+
 body{
     text-align: center;
 }
@@ -635,18 +633,17 @@ div.navbar-toggler{
 }
 
 .home-container{
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 1% auto;
 }
 
 h4.sm-txt{
-    font-size: 10px;
-    text-align: center;
+    font-size: 12px;
+    text-align: left;
 }
   
 h1.lg-txt{
-    font-size: 20px;
-    text-align: center;
+    font-size: 24px;
+    text-align: left;
 }
 
   
@@ -660,9 +657,7 @@ button.j-buttons1, button.j-buttons2{
     font-weight: 400;
     margin-top: 5px !important;
 }
-div.img-container{
-    display: none;
-}
+
 
 .home, .about, .resume, .portfolio, .contact{
     align-items: center !important;
@@ -678,21 +673,24 @@ div.img-container{
     font-size: 16px;
 }
 .p-about{
-    font-size: 10px !important;
+    font-size: 14px !important;
     margin-left: -10px;
     margin-right: -10px;
 }
 
 .TechEn-field{
-    width: 300px;
+    min-width: 300px;
+    max-width: 900px;
     height: 150px;
-    margin: 0px;
+    margin: 2% 2%;
 }
 
 .skills-field{
-    width: 300px;
+    min-width: 300px;
+    max-width: 900px;
+    margin: 2% 2%;
+    margin-top: 0;
     height: 250px;
-    margin: 0px;
 }
 
 .TechEn-leg,.skills-leg,.res-leg{
@@ -733,9 +731,10 @@ i.bi-geo-alt,.bi-calendar2-check,.bi-envelope,.bi-telephone-inbound,.bi-gender-m
 }
 
 .res-field-1{
-    margin: 0px;
+    margin: 2% 2%;
+    min-width: 300px;
+    max-width: 900px;
     margin-top: 10px;
-    width: 300px;
     height: 255px;
 }
 
@@ -748,9 +747,10 @@ i.bi-geo-alt,.bi-calendar2-check,.bi-envelope,.bi-telephone-inbound,.bi-gender-m
 }
 
 .res-field-2{
-    margin: 0px;
+    margin: 2% 2%;
     margin-top: 20px;
-    width: 300px;
+    min-width: 300px;
+    max-width: 900px;
     height: 280px;
 }
 
@@ -847,4 +847,11 @@ textarea{
     font-size: 14px;
 }
 
+}
+
+@media screen and (max-width: 770px){
+
+    div.img-container{
+        display: none;
+    }
 }
