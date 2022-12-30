@@ -3,12 +3,12 @@ body{
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: #170857;
     /* #120c6e #0b0742*/
 }
 /* Navigation Bar */
 header{
-    background-color: black;
+    background-color: #0e0536;
     box-shadow: 2px 4px 8px rgb(155, 147, 187);
 }
 
@@ -584,7 +584,7 @@ button.app-icon:hover{
 }
 /* Media Queries */
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 370px){
 
     /* .mobile-view-message{
         display: unset;
